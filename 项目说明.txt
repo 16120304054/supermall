@@ -1,0 +1,18 @@
+新项目：
+1.划分目录结构
+	src
+		assets
+			img
+			css
+				normalize.css   //初始化css
+				base.css    	//自己写的初始化css
+		components
+			common  //公共的组件，针对其他项目，也可以复用
+			content  //公共的组件，但是只针对当前项目
+		views
+			每个组件都建一个文件夹。
+		router
+		network
+		vuex
+		common   //放一些公共的js文件
+	
