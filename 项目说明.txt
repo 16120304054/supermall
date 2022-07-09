@@ -15,4 +15,25 @@
 		network
 		vuex
 		common   //放一些公共的js文件
+
+2. 引用了两个css文件
+3.  .editorconfig   //编程风格的配置文件。
+4.  创建vue.config，修改别名。（脚手架3）
+module.exports = {
+    configureWebpack: {
+        resolve: {
+            alias: {
+                'assets' : '@/assets',
+                'common' : '@/common',
+                'components' : '@/components',
+                'network' : '@/network',
+                'views' : '@/views',
+
+            }
+        }
+    }
+}
+	脚手架2，直接修改配置文件即可。
+	
+
 	

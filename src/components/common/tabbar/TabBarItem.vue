@@ -28,7 +28,7 @@ export default {
     },
     methods: {
         btnClick(){
-            this.$router.replace(this.path).catch(()=>{})
+            this.$router.replace(this.path)
         }
     }
 }
